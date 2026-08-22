@@ -65,6 +65,23 @@ The XGBoost router ranks queries using dense-retrieval features including simila
 * **Router:** XGBoost
 * **Vector Index:** FAISS
 
+## Results Visualization
+### Quality Comparison
+
+![Quality Comparison](figures/quality_comparison.png)
+
+### Context and Latency Comparison
+
+![Context and Latency Comparison](figures/context_cost_comparison.png)
+
+### Adaptive Routing Distribution
+
+![Adaptive Routing Distribution](figures/routing_distribution.png)
+
+### Answer Quality vs. Context Cost
+
+![Answer Quality vs. Context Cost](figures/quality_vs_context_cost.png)
+
 ## Key Idea
 
 Instead of applying a fixed retrieval budget to every query, the system starts with a small semantic context and selectively allocates additional retrieval computation only to queries predicted to benefit from more evidence.
