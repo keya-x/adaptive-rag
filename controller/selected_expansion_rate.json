@@ -1,0 +1,6 @@
+{
+  "expansion_rate": 0.1,
+  "base_k": 3,
+  "expanded_k": 5,
+  "selection_rule": "Best validation F1; among F1 values within 0.005 of best, select lowest average k."
+}

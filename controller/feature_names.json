@@ -1,0 +1,13 @@
+[
+  "query_tokens",
+  "query_chars",
+  "top1",
+  "top2",
+  "top3",
+  "gap12",
+  "gap23",
+  "gap13",
+  "mean3",
+  "std3",
+  "top1_mean3_ratio"
+]

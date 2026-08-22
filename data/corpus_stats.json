@@ -1,0 +1,10 @@
+{
+  "num_documents": 62933,
+  "avg_words_per_document": 87.04337946705226,
+  "median_words_per_document": 78.0,
+  "max_words_per_document": 1378,
+  "min_words_per_document": 3,
+  "num_controller_train_examples": 5000,
+  "num_controller_validation_examples": 1000,
+  "num_final_test_examples": 1000
+}

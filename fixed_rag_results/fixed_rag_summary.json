@@ -1,0 +1,13 @@
+{
+  "num_examples": 1000,
+  "exact_match": 0.294,
+  "f1": 0.43773507505706616,
+  "avg_context_tokens": 666.994,
+  "avg_generation_tokens": 8.232,
+  "avg_retrieval_time_ms": 22.761878538999383,
+  "avg_generation_time_ms": 481.26019083999876,
+  "avg_total_time_ms": 504.0220693789982,
+  "median_total_time_ms": 381.0433054999862,
+  "p95_total_time_ms": 1329.1302503999755,
+  "retrieval_depth": 5
+}

@@ -1,0 +1,10 @@
+{
+  "train_examples": 5000,
+  "qa_selection_examples": 300,
+  "train_positive_rate": 0.1016,
+  "selected_expansion_rate": 0.1,
+  "selected_average_k": 3.2,
+  "selected_validation_f1": 0.470327764749527,
+  "fixed_top3_validation_f1": 0.4719981253147125,
+  "fixed_top5_validation_f1": 0.4659769833087921
+}

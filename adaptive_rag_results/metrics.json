@@ -1,0 +1,30 @@
+{
+  "evaluation_examples": 1000,
+  "controller_expansion_rate": 0.1,
+  "fixed_rag": {
+    "exact_match": 0.294,
+    "f1": 0.43773507505706616,
+    "avg_context_tokens": 666.994,
+    "avg_generated_tokens": 8.232,
+    "avg_retrieval_depth": 5.0,
+    "avg_total_latency_ms": 504.0220693789982,
+    "median_total_latency_ms": 381.0433054999862,
+    "p95_total_latency_ms": 1329.1302503999755
+  },
+  "adaptive_rag": {
+    "exact_match": 0.305,
+    "f1": 0.4425681995234379,
+    "avg_context_tokens": 412.025,
+    "avg_generated_tokens": 7.774,
+    "avg_retrieval_depth": 3.2,
+    "avg_total_latency_ms": 415.47599657499967,
+    "median_total_latency_ms": 294.8638335000169,
+    "p95_total_latency_ms": 1236.6501649999511,
+    "top3_rate": 0.9,
+    "top5_rate": 0.1
+  },
+  "reductions": {
+    "context_token_reduction": 0.38226580748852323,
+    "latency_reduction": 0.1756789596794749
+  }
+}

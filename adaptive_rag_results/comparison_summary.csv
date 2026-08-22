@@ -1,0 +1,13 @@
+Metric,Fixed Dense@5,Adaptive 3→5
+Exact Match,0.294,0.305
+F1,0.43773507505706616,0.4425681995234379
+Avg Context Tokens,666.994,412.025
+Avg Generated Tokens,8.232,7.774
+Avg Retrieval Depth,5.0,3.2
+Avg Total Latency (ms),504.0220693789982,415.47599657499967
+Median Total Latency (ms),381.0433054999862,294.8638335000169
+P95 Total Latency (ms),1329.1302503999755,1236.6501649999511
+Top-3 Route Rate,0.0,0.9
+Top-5 Expansion Rate,1.0,0.1
+Context Token Reduction,0.0,0.38226580748852323
+Latency Reduction,0.0,0.1756789596794749

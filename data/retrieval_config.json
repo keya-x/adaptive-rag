@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "debug": false,
+  "dataset": {
+    "name": "hotpotqa/hotpot_qa",
+    "config": "distractor",
+    "controller_train_size": 5000,
+    "controller_validation_size": 1000,
+    "final_test_size": 1000
+  },
+  "models": {
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+  },
+  "retrieval": {
+    "bm25_k": 5,
+    "dense_k": 10,
+    "embedding_dimension": 384,
+    "bm25_tokenizer_pattern": "[A-Za-z0-9]+"
+  },
+  "corpus": {
+    "num_documents": 62933,
+    "deduplication": "SHA1(title + normalized paragraph text)",
+    "granularity": "paragraph"
+  },
+  "runtime": {
+    "python_version": "3.12.13",
+    "torch_version": "2.10.0+cu128",
+    "device": "cuda",
+    "gpu": "Tesla T4"
+  }
+}
