@@ -50,6 +50,19 @@ Answer
 
 The XGBoost router ranks queries using dense-retrieval features including similarity scores, score gaps, query length, and score statistics. The highest-ranked queries receive additional retrieval.
 
+## Approach
+
+Standard RAG applies a fixed retrieval budget to every query. This project instead learns when additional retrieval is worth the extra context cost.
+
+The system starts with the top-3 semantic results. An XGBoost router scores the query using retrieval-confidence features such as similarity scores, score gaps, query length, and score statistics. The highest-scoring queries are expanded to five passages.
+
+The final policy uses:
+
+* **90%** Top-3 retrieval
+* **10%** Top-5 expansion
+
+![Routing Distribution](figures/routing_distribution.png)
+
 ## Dataset
 
 **HotpotQA (distractor configuration)**
@@ -73,10 +86,6 @@ The XGBoost router ranks queries using dense-retrieval features including simila
 ### Context and Latency Comparison
 
 ![Context and Latency Comparison](figures/context_cost_comparison.png)
-
-### Adaptive Routing Distribution
-
-![Adaptive Routing Distribution](figures/routing_distribution.png)
 
 ### Answer Quality vs. Context Cost
 
